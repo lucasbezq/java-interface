@@ -1,4 +1,4 @@
-package entity;
+package model.entity;
 
 public class Invoice {
 
@@ -9,7 +9,6 @@ public class Invoice {
 	}
 
 	public Invoice(Double basicPayment, Double tax) {
-		super();
 		this.basicPayment = basicPayment;
 		this.tax = tax;
 	}
